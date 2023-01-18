@@ -86,6 +86,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: web-build
+          path: web-build
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
